@@ -34,14 +34,15 @@ form {
 label {
     font-weight: bold;
 }
-.characterAmountContainer {
+.character-amount-container {
     display: flex;
     align-items: center;
 }
 .number-input {
-    width: 2rem;
+    width: 3rem;
+    margin-left: 1rem;
 }
-.passwordDisplay {
+.password-display {
     background-color: white;
     color: black;
     padding: 1rem;
@@ -67,4 +68,7 @@ label {
     background-color: #FFFFFF33;
     /*transform: scale(1.2);*/
     /*transition-duration: 1000ms;*/
+}
+#includeNumbers, #includeSymbols, #includeUppercase {
+    margin-right: auto;
 }
